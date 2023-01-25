@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+.heading{
+    font-family: roboto;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+
+}
+.nav-logo{
+    width: 100px;
+    height: 72px;
+}
+.nav-items{
+    color: #FFD700 !important;;
+    font-family: Poppins;
+
+}
+.margin-left{
+    margin-left: auto;
+}
+.banner-container{
+    background-image: url(food.jpg);
+    height: 100vh;
+    background-size: cover;
+    font-family:Poppins;
+    color:white;
+    text-align: center;
+    opacity:0.885;
+    
+}
+.banner-heading{
+    font-size: 45px;
+    font-weight: 600;
+    text-shadow: 5px 5px 12px rgb(0 0 0 / 100%);
+}
+.banner-caption{
+    font-size: 30px;
+    text-shadow: 5px 5px 12px rgb(0 0 0 / 100%);
+}
+.view-button{
+    border-radius: 8px;
+    background-color: #FFD700;
+    color: darkblue;
+    border-width: 0px;
+    width: 130px;
+    height: 45px;
+    margin-right: 10px;
+}
+.order-button{
+    border-radius: 8px;
+    background-color:transparent;
+    font-weight: bold;
+    color: #FFD700;
+    border: solid 2px #FFD700;
+    width: 130px;
+    height: 45px;
+}
+.whychoose-bg{
+    background-image: url(food4.png);
+    height: 20%;
+    background-size: cover;
+    margin:35px 25px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.whychoose-bg h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-shadow: 3px 3px 10px rgb(0 0 0 / 100%);
+    text-transform: uppercase;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+}
+.whychoose-para{
+    font-family: andika;
+    padding-top: 0px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #4F516B;
+    text-align: center;
+}
+.whychoose-card{
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+.whychoose-card h1{
+    color:#d19600;
+    font-size: 30px;
+    font-family: poppins;
+    margin: 15px;
+}
+.whychoose-card p{
+    color:#616161;;
+    font-family: poppins;
+    padding: 15px;
+}
+.whychoose-img{
+    width: 100%;
+    height:210px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.whychoose-container
+{
+    height: auto;
+}
+.menu-bg{
+    background-image: url("food.jpg");
+    height: 20%;
+    background-size: cover;
+    margin:35px 25px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu-bg h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-shadow: 3px 3px 10px rgb(0 0 0 / 100%);
+    text-transform: uppercase;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+}
