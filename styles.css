@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Andika&family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400;1,700&display=swap');
 .heading{
     font-family: roboto;
     font-size: 35px;
@@ -57,6 +58,7 @@
     border: solid 2px #FFD700;
     width: 130px;
     height: 45px;
+    
 }
 .whychoose-bg{
     background-image: url(food4.png);
@@ -89,6 +91,7 @@
     background-color: white;
     border-radius: 10px;
     height: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .whychoose-card h1{
     color:#d19600;
@@ -129,4 +132,126 @@
     color: white;
     font-family: Poppins;
     text-align: center;
+}
+.menu-card{
+    background-color:white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.menu-card img{
+    width: 100%;
+    height: 210px;
+    border-radius: 10px;
+}
+.menu-card h1{
+    font-family:"Roboto";
+    font-size: 20px;
+    padding: 10px;
+    width: 186px;
+}
+.menu-link{
+    font-family: poppins;
+    font-size:14px;
+    padding: 10px;
+    color: #d19600;
+    text-decoration: none;
+}
+.space{
+    margin-left:6px;
+}
+.chef-image-container{
+    height: 20%;
+    background-image: url(chef.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px;
+
+}
+.chef-image-container h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-shadow: 3px 3px 10px rgb(0 0 0 / 100%);
+    text-transform: uppercase;
+    color: white;
+    font-family: Poppins;
+    text-align: center;
+}
+.chef-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding:20px;
+    margin: 15px;
+    height: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.chef-card img{
+    border-radius: 50px;
+    height:99px;
+    width: 99px;
+}
+.chef-card h1{
+    color: #272834;;
+    font-size: 20px;
+    font-family: poppins;
+    margin: 15px;
+}
+.chef-card h2{
+    color: #67686b;
+    font-size: 15px;
+    font-family: poppins;
+
+}
+.chef-card p{
+    color: #4F516B;
+    font-size: 15px;
+    font-family: andika;
+
+}
+.icon{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 42px !important;
+    height: 42px !important;
+}
+.icons{
+    width: 42px !important;
+    height: 42px !important;
+    margin-left: 10px;
+}
+.follow-us{
+    margin:0px !important;
+}
+.follow-us h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FFD700;
+    font-family: Poppins;
+    text-align: center;
+}
+.footer{
+    background-color: #033646;
+    height: 10%;
+    padding: 15px;
+    margin:0px !important;
+}
+.footer-logo{
+    height:100%;
+    width: 5%;
+}
+.footer p{
+    color: white;
+    font-family: poppins;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.adjust{
+    margin-left: 10px;
 }
