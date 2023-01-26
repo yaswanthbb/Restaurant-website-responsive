@@ -23,7 +23,7 @@
     margin-left: auto;
 }
 .banner-container{
-    background-image: url(food.jpg);
+    background-image: url(images/food.jpg);
     height: 100vh;
     background-size: cover;
     font-family:Poppins;
@@ -61,7 +61,7 @@
     
 }
 .whychoose-bg{
-    background-image: url(food4.png);
+    background-image: url(images/food4.png);
     height: 20%;
     background-size: cover;
     margin:35px 25px 0px 25px;
@@ -115,7 +115,7 @@
     height: auto;
 }
 .menu-bg{
-    background-image: url("food.jpg");
+    background-image: url("images/food.jpg");
     height: 20%;
     background-size: cover;
     margin:35px 25px 0px 25px;
@@ -163,7 +163,7 @@
 }
 .chef-image-container{
     height: 20%;
-    background-image: url(chef.png);
+    background-image: url(images/chef.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
